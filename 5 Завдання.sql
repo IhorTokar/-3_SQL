@@ -1,3 +1,3 @@
--- Зміна типу обмеження цілісності для зв'язку
+-- Р—РјС–РЅР° С‚РёРїСѓ РѕР±РјРµР¶РµРЅРЅСЏ С†С–Р»С–СЃРЅРѕСЃС‚С– РґР»СЏ Р·РІ'СЏР·РєСѓ
 ALTER TABLE Recipes DROP FOREIGN KEY fk_user_id;
 ALTER TABLE Recipes ADD CONSTRAINT fk_user_id FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE SET NULL;
