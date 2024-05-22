@@ -1,3 +1,4 @@
--- Зміна типу поля
+USE CulinaryForum;
+-- Р—РјС–РЅР° С‚РёРїСѓ РїРѕР»СЏ
 ALTER TABLE Recipes ALTER COLUMN description TEXT;
 GO
